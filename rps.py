@@ -1,13 +1,13 @@
 import random
 
 _dict = {
-    -1: "rock",
-    0: "paper",
-    1: "scissors"
+    0: "rock",
+    1: "paper",
+    2: "scissors"
 }
 
 def generate():
-    num = random.randint(-1, 1)
+    num = random.randint(0, 2)
     return _dict[num]
 
 player = input("Rock, Paper, or Scissors? ").lower()

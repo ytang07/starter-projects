@@ -1,1 +1,11 @@
-{"name": "Tom Brady", "email": "TB12@tb12.com", "phone": "7777777", "relationship": "Friend"}
+{
+    "name": "Tom Brady",
+    "email": "TB12@tb12.com",
+    "phone": "7777777",
+    "relationship": "Friend"
+}{
+    "name": "Michael Jordan",
+    "email": "23@michaeljordan.com",
+    "phone": "1232323",
+    "relationship": "Friend"
+}

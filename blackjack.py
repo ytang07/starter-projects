@@ -1,7 +1,7 @@
 import random
 # 11 = J, 12 = Q, 13 = K, 14 = A
 card_values = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-suites = ["clubs", "diamonds", "hearts", "spades"]
+suits = ["clubs", "diamonds", "hearts", "spades"]
 
 face_cards = {
     11: "J",
@@ -12,11 +12,11 @@ face_cards = {
 def generate_cards():
     cards = []
     for value in card_values:
-        for suite in suites:
+        for suit in suits:
             if value in face_cards:
-                _card = (face_cards[value], suite)
+                _card = (face_cards[value], suit)
             else:
-                _card = (value, suite)
+                _card = (value, suit)
             cards.append(_card)
     return cards
 
