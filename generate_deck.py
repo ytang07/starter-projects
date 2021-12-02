@@ -13,6 +13,7 @@ face_cards = {
     13: "K",
     14: "A"
 }
+
 class Card:
     def __init__(self, value, suit):
         self.value = value
@@ -30,3 +31,5 @@ def generate_cards():
     return cards
 
 cards = generate_cards()
+for card in cards:
+    print(card.value, card.suit)
