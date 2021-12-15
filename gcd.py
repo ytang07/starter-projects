@@ -1,12 +1,16 @@
 # euclidean algorithm
 def iterative_gcd(x: int, y: int):
     while(y):
+        if x == 1 or y == 1:
+            return 1
         x, y = y, x%y
     return x
 
 def recursive_gcd(x: int, y: int):
     if y == 0:
         return x
+    if x == 1 or y == 1:
+        return 1
     return recursive_gcd(y, x%y)
 
 print(iterative_gcd(10, 20)) # 10
