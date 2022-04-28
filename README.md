@@ -14,6 +14,14 @@ starter python projects
 - [Plot a Random Dataset](https://pythonalgos.com/2021/12/03/super-simple-python-plot-a-random-dataset/)
 - [Grader](https://pythonalgos.com/2021/12/04/super-simple-python-grader/)
 - [Inigo Montoya - The Perfect Introduction](https://pythonalgos.com/2021/12/07/super-simple-python-the-perfect-introduction/)
+- [Is This a Square Number?](https://pythonalgos.com/super-simple-python-is-this-a-square-number/)
+- [Two Ways to Get a GCD](https://pythonalgos.com/super-simple-python-two-ways-to-get-gcd/)
+- [Two Ways to Get LCMs](https://pythonalgos.com/super-simple-python-two-ways-to-get-lcm/)
+- [Prime Factorizations](https://pythonalgos.com/super-simple-python-prime-factorization/)
+- [Word Count](https://pythonalgos.com/super-simple-python-word-count/)
+- [Tower of Hanoi](https://pythonalgos.com/super-simple-python-tower-of-hanoi/)
+- [Madlibs](https://pythonalgos.com/super-simple-python-madlibs/)
 
 # Libraries
 - [Random Library](https://pythonalgos.com/2021/12/18/a-comprehensive-guide-to-the-python-random-library/)
+- [Math](https://pythonalgos.com/basic-python-how-to-do-math-in-python/)
