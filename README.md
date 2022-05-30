@@ -21,6 +21,7 @@ starter python projects
 - [Word Count](https://pythonalgos.com/super-simple-python-word-count/)
 - [Tower of Hanoi](https://pythonalgos.com/super-simple-python-tower-of-hanoi/)
 - [Madlibs](https://pythonalgos.com/super-simple-python-madlibs/)
+- [Common Python Syntax Errors and Solutions](https://pythonalgos.com/resources/common-python-syntax-errors-and-solutions/)
 
 # Libraries
 - [Random Library](https://pythonalgos.com/2021/12/18/a-comprehensive-guide-to-the-python-random-library/)
