@@ -18,5 +18,5 @@ for p in dir:
 for top_folder, content in structure.items():
     print(f"Top Folder: {top_folder}")
     for folder, files in content.items():
-        print(f"    Folder: {folder}")
+        print(f"    Folders: {folder}")
         print(f"        Files: {files}")
