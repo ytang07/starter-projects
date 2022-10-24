@@ -23,6 +23,7 @@ starter python projects
 - [Madlibs](https://pythonalgos.com/super-simple-python-madlibs/)
 - [Common Python Syntax Errors and Solutions](https://pythonalgos.com/resources/common-python-syntax-errors-and-solutions/)
 - [Reading and Writing to a Text File](https://pythonalgos.com/super-simple-python-reading-and-writing-to-a-text-file/)
+- [Expense Tracker in Python - Level 1](https://pythonalgos.com/expense-tracker-in-python-level-1/)
 
 # Libraries
 - [Random Library](https://pythonalgos.com/2021/12/18/a-comprehensive-guide-to-the-python-random-library/)
