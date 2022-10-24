@@ -3,18 +3,21 @@ Date    Category    Cost'''
 import csv
 
 def read_expenses():
-    with open("expenses.csv", "r") as f:
-        csv_reader = csv.reader(f, delimiter=",")
-        expenses = []
-        for row in csv_reader:
-            expenses.append(row)
-    # expenses come in the columns of date (0), category (1), price (2)
-    for line in expenses:
-        print(f"On {line[0]}, {line[2]} was spent on {line[1]}")
+    try:
+        with open("expenses.csv", "r") as f:
+            csv_reader = csv.reader(f, delimiter=",")
+            expenses = []
+            for row in csv_reader:
+                expenses.append(row)
+        # expenses come in the columns of date (0), category (1), price (2)
+        for line in expenses:
+            print(f"On {line[0]}, {line[2]} was spent on {line[1]}")
+    except:
+        print("No Expense Tracker File Exists Yet")
 
 def write_expenses():
     reporting = True
-    f = open("expenses.csv", "w")
+    f = open("expenses.csv", "a")
     expense_writer = csv.writer(f, delimiter=",")
     while reporting:
         date = input("What date was the expense incurred? ")
